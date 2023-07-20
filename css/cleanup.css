@@ -1,1 +1,51 @@
 /* write your override styles here */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: red;
+  }
+  /* Additional CSS rules added */
+.new-rule {
+  color: red;
+}
+
+.another-rule {
+  background-color: yellow;
+}
+
+/* Extend an existing rule */
+.tag-1 {
+  font-size: 18px;
+}
+/* Additional CSS rules added */
+
+/* Change font size and color */
+.tag-2 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Add a border */
+.tag-3 {
+  border: 2px solid #ff0000;
+}
+
+/* Add a background color */
+.parent {
+  background-color: #f0f0f0;
+}
+
+/* Add margins and padding */
+.tag-4 {
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Add a shadow effect */
+.tag-5 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
